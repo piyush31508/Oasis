@@ -1,0 +1,92 @@
+html{
+    background-color: #B7CADB;
+}
+header {
+    display: flex;
+}
+.header-right, .logo{
+    flex:1;
+}
+.header-right, a{
+    margin-top: 20px;
+    text-align: right;
+    color: #fff;
+}
+.me{
+    display: flex;
+    padding: 80px;
+}
+.myself{
+    flex: 70%;
+    padding: 50px;
+}
+.pic {
+    flex: 30%;
+    padding-right: 110px;
+    overflow: hidden;
+    display: block;
+}
+.pic img {
+    margin-top: 1%;
+    border-radius: 50%;
+    width: 130%;
+    height: 89%;
+    display: block;
+}
+nav{
+    display: flex;
+    padding-top: 50px;
+}
+.des, .far{
+    flex:1;
+}
+.far{
+    padding: 80px;
+}
+section{
+    display: flex;
+}
+.front, .back, .dbms{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+figure{
+    display: flex;
+}
+.tec, .pro{
+    text-align: center;
+    flex: 1;
+}
+.pro {
+    text-align: center;
+}
+.pro h3 {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+aside{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.lan, .bun, .git, .dev{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+    display: flex;
+}
+.let, .detail{
+    flex: 1;
+    padding: 50px 75px 50px 175px;
+}
+.detail a {
+    margin-bottom: 5px; /* You can adjust this value to increase or decrease the space */
+    display: inline-block; /* Ensures each link is on a new line */
+}
